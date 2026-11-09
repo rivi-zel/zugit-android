@@ -1,0 +1,238 @@
+<resources>
+    <!-- ============================== -->
+    <!-- Brand / system -->
+    <!-- ============================== -->
+    <string name="app_name">ZugIt</string>
+    <string name="accessibility_service_description">ZugIt needs Accessibility for ONE purpose: to paste your dictated text into the text field you are typing in. It detects which field is focused and inserts the transcription there. It does NOT read the content of other apps, collect screen data, or transmit any information to our servers through this service.</string>
+    <string name="default_web_client_id" translatable="false">YOUR_WEB_CLIENT_ID.apps.googleusercontent.com</string>
+
+    <!-- Language names (shown in language picker). Each locale's strings.xml
+         should translate ALL THREE so the picker reads correctly in any locale. -->
+    <string name="language_english">English</string>
+    <string name="language_yiddish">Yiddish (אידיש)</string>
+    <string name="language_hebrew">Hebrew (עברית)</string>
+    <string name="language_system_default">System default</string>
+    <string name="settings_language">Language</string>
+    <string name="dialog_choose_language">Choose language</string>
+
+    <!-- ============================== -->
+    <!-- Generic actions -->
+    <!-- ============================== -->
+    <string name="action_next">Next</string>
+    <string name="action_skip">Skip</string>
+    <string name="action_finish">Finish</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_start">Start</string>
+    <string name="action_send">Send</string>
+    <string name="action_discard">Discard</string>
+    <string name="action_keep_recording">Keep recording</string>
+    <string name="action_got_it">Got it</string>
+
+    <!-- ============================== -->
+    <!-- Main screen -->
+    <!-- ============================== -->
+    <string name="status_ready">Floating mic is off</string>
+    <string name="status_starting">Turning on…</string>
+    <string name="status_stopping">Turning off…</string>
+    <string name="status_listening">Floating mic is on</string>
+    <string name="status_active">On</string>
+    <string name="status_off">Off</string>
+    <string name="status_missing">Missing</string>
+    <string name="hero_subtitle_tap_start">Tap to turn on. The mic will float over any app.</string>
+    <string name="hero_subtitle_tap_stop">Tap to turn off the floating mic.</string>
+    <string name="hero_subtitle_activating">Turning on the floating mic…</string>
+    <string name="hero_subtitle_releasing">Turning off…</string>
+    <string name="home_greeting">Welcome</string>
+    <string name="home_floating_mic_label">Floating microphone</string>
+    <string name="label_service">Service</string>
+    <string name="label_permissions">Permissions</string>
+    <string name="label_settings">Settings</string>
+    <string name="section_recent_transcriptions">Recent Transcriptions</string>
+    <string name="empty_transcriptions">No transcriptions yet</string>
+    <string name="toast_grant_permissions">Please grant all permissions in setup</string>
+    <string name="reminder_perms_title">⚠️ Setup incomplete</string>
+    <string name="reminder_perms_body">ZugIt needs a few permissions before it can work. Tap below to finish setup.</string>
+    <string name="reminder_perms_action">Finish Setup</string>
+    <string name="toast_copied">Copied!</string>
+    <string name="perm_all_ok">All OK</string>
+    <string name="perm_partial">Partial</string>
+    <string name="action_copy">Copy</string>
+
+    <!-- ============================== -->
+    <!-- Onboarding -->
+    <!-- ============================== -->
+    <string name="onboarding_language_title">Choose your language</string>
+    <string name="onboarding_language_desc">You can change this later in Settings.</string>
+
+    <string name="onboarding_welcome_title">ZugIt</string>
+    <string name="onboarding_welcome_desc">Professional Yiddish voice-to-text dictation.\nSpeak naturally and let AI type for you.</string>
+
+    <string name="onboarding_consent_title">Privacy &amp; Consent</string>
+    <string name="onboarding_consent_desc">Your voice recordings are sent to a transcription server to be turned into text.\n\nPlease check the box below to continue.</string>
+    <string name="onboarding_consent_checkbox">I agree that my recordings may be sent to a transcription server.</string>
+    <string name="onboarding_privacy_link">Read our Privacy Policy</string>
+    <string name="toast_consent_needed">Please check the consent box to continue</string>
+
+    <string name="onboarding_login_title">Sign In</string>
+    <string name="onboarding_login_desc">Sign in with Google to continue.</string>
+    <string name="action_sign_in_google">Sign in with Google</string>
+    <string name="dialog_signin_title">Sign in required</string>
+    <string name="dialog_signin_message">Sign in with your Google account to continue.</string>
+    <string name="toast_signin_unavailable">Google Sign-In unavailable. Check internet &amp; Play Services.</string>
+    <string name="toast_signin_no_email">Sign-in failed: no email returned. Please try again.</string>
+    <string name="toast_signin_success">Signed in as %1$s</string>
+    <string name="toast_signin_didnt_complete">Sign-in didn\'t complete. Please try again.</string>
+
+    <string name="onboarding_notif_title">Notifications</string>
+    <string name="onboarding_notif_desc">ZugIt runs as a foreground service while recording. Android requires an ongoing notification so you always know when the mic is active.</string>
+    <string name="action_grant_notifications">Allow Notifications</string>
+
+    <string name="onboarding_mic_title">Microphone Access</string>
+    <string name="onboarding_mic_desc">We need microphone permission to hear your voice.</string>
+    <string name="action_grant_microphone">Grant Microphone</string>
+
+    <string name="onboarding_overlay_title">Floating Button</string>
+    <string name="onboarding_overlay_desc">Allow the dictation button to appear over other apps.</string>
+    <string name="action_allow_overlay">Allow Overlay</string>
+
+    <string name="onboarding_a11y_title">Accessibility Service</string>
+    <string name="onboarding_a11y_desc">ZugIt uses Android\'s Accessibility Service for ONE purpose: to paste your dictated text into the text field you are currently typing in.\n\nWhat it does:\n• Detects which text field is focused so it can insert the transcription there\n• Pastes your spoken words into that field\n\nWhat it does NOT do:\n• Does not read or collect content from other apps\n• Does not capture your screen\n• Does not transmit any data from other apps to our servers\n\nNOTE: If settings are \'Restricted\', tap the icon above to open App Info → 3 dots (top right) → \'Allow restricted settings\'.</string>
+    <string name="action_open_accessibility">Open Accessibility Settings</string>
+    <string name="action_open_accessibility_step1">1. Open Accessibility</string>
+    <string name="toast_a11y_find_app">Find \'ZugIt\' in the list and enable it</string>
+    <string name="toast_restricted_settings">Click 3-dots at top right -&gt; Allow restricted settings</string>
+    <string name="toast_a11y_grayed_tip">Tip: Tap the icon if accessibility is grayed out</string>
+
+    <string name="onboarding_position_title">Setup Button</string>
+    <string name="onboarding_position_desc">Tap the input field below to show the keyboard. Then drag the mic button and use the slider to resize it.</string>
+    <string name="page_input_hint">Type here to show keyboard</string>
+    <string name="page_action_placeholder" translatable="false">Action</string>
+
+    <!-- ============================== -->
+    <!-- Settings -->
+    <!-- ============================== -->
+    <string name="settings_default_name">User Name</string>
+    <string name="settings_default_email">email@example.com</string>
+    <string name="settings_section_account">Account</string>
+    <string name="settings_section_floating_mic">Floating mic</string>
+    <string name="settings_section_about">About</string>
+    <string name="action_keyboard_setup">Set up keyboard mic</string>
+    <string name="section_floating_button">Floating Button</string>
+    <string name="action_reposition_resize">Reposition &amp; resize button</string>
+    <string name="settings_reposition_desc">Unlocks the button so you can drag it and resize it.</string>
+    <string name="section_help_support">Help &amp; Support</string>
+    <string name="action_how_to_use">How to use</string>
+    <string name="action_send_feedback">Send feedback</string>
+    <string name="action_report_issue">Report an issue</string>
+    <string name="action_support_project">Support the project</string>
+    <string name="settings_support_message">Like this app? Support the project.</string>
+    <string name="action_buy_coffee">Support</string>
+    <string name="toast_button_unlocked">Button unlocked! Move it anywhere. Keyboard will open to help you position.</string>
+    <string name="dialog_report_title">Report an Issue</string>
+    <string name="dialog_report_message">To help us fix the problem faster, we\'ll record diagnostic logs.\n\n1. Tap Start below\n2. Go reproduce the issue (leave this screen)\n3. Come back to Settings → Report an Issue\n4. Tap Send to email us the logs</string>
+    <string name="dialog_send_report_title">Send Report</string>
+    <string name="dialog_send_report_message">Done reproducing the issue? We\'ll collect the logs and open your email app.</string>
+    <string name="toast_recording_logs">Recording logs. Go reproduce the issue, then come back.</string>
+    <string name="toast_report_discarded">Report discarded.</string>
+    <string name="settings_version_format">ZugIt v%1$s (%2$d)</string>
+
+    <!-- ============================== -->
+    <!-- Help -->
+    <!-- ============================== -->
+    <string name="title_help">How to Use</string>
+    <string name="help_getting_started_title">Getting Started</string>
+    <string name="help_getting_started_body">1. Open any app with a text field (WhatsApp, Gmail, Chrome, etc.)\n2. Tap the field to bring up the keyboard.\n3. The floating mic button will appear over the keyboard.\n4. Tap it once to start recording.\n5. Tap again to stop — your speech gets typed into the field.</string>
+    <string name="help_moving_title">Moving the Button</string>
+    <string name="help_moving_body">• Long-press the button to unlock it.\n• Drag it anywhere on the screen.\n• Use the size slider to resize it.\n• Tap Done to lock it in place.\n\nOr open Settings → Reposition &amp; Resize Button.</string>
+    <string name="help_tips_title">Tips</string>
+    <string name="help_tips_body">• Speak clearly at a normal pace.\n• Short clips (under 30 seconds) work best.\n• If the text doesn\'t appear, it\'s been copied to your clipboard — just paste.\n• The button only shows when the keyboard is open.</string>
+    <string name="help_trouble_title">Troubleshooting</string>
+    <string name="help_trouble_body">• Button not appearing? Check that the Accessibility service is enabled.\n• Text not typing in? Some apps block auto-fill — the text is always copied to the clipboard as a backup.\n• Still stuck? Use Report an Issue from Settings so we can help.</string>
+
+    <!-- ============================== -->
+    <!-- Floating mic / service -->
+    <!-- ============================== -->
+    <string name="mic_content_description">Dictate</string>
+    <string name="mic_stop_description">Stop recording</string>
+    <string name="floating_drag_hint">👆 Drag me anywhere</string>
+    <string name="reposition_slide_hint">Slide me</string>
+    <string name="floating_button_size">Button Size</string>
+    <string name="floating_finish_lock">Finish &amp; Lock ✓</string>
+    <string name="toast_drag_hint">Drag to move. Tap Done when finished.</string>
+    <string name="toast_position_saved">Position saved!</string>
+    <string name="coach_tip_resize">↔️ Use the slider to resize</string>
+    <string name="coach_tip_tap_done">✅ Tap Done when finished</string>
+    <string name="toast_couldnt_start">Couldn\'t start recording. Please try again.</string>
+    <string name="toast_clipboard_copied">📋 Copied to clipboard: %1$s</string>
+    <string name="toast_no_connection">No connection. Check your internet and try again.</string>
+    <string name="notification_channel_name">ZugIt</string>
+    <string name="notification_channel_description">Voice typing service status</string>
+    <string name="notification_title_active">ZugIt — Active</string>
+    <string name="notification_title_ready">ZugIt — Ready</string>
+    <string name="notification_recording">🔴 Recording…</string>
+    <string name="notification_no_connection">❌ No connection</string>
+
+    <!-- ============================== -->
+    <!-- API / network errors -->
+    <!-- ============================== -->
+    <string name="api_error_service_unavailable">Service unavailable. Please try again.</string>
+    <string name="api_error_empty_recording">Recording was empty. Please try again.</string>
+    <string name="api_error_signin_required">Sign-in required. Please re-open the app.</string>
+    <string name="api_error_too_long">Recording too long. Please try a shorter clip.</string>
+    <string name="api_error_service_busy">Service is busy. Please try again in a moment.</string>
+    <string name="api_error_transcribe_generic">Couldn\'t transcribe. Please try again.</string>
+
+    <!-- ============================== -->
+    <!-- Support email -->
+    <!-- ============================== -->
+    <string name="support_subject_feedback">ZugIt — Feedback</string>
+    <string name="support_subject_issue">ZugIt — Issue Report</string>
+    <string name="support_describe_feedback">--- Please describe your feedback above this line ---</string>
+    <string name="support_describe_issue">--- Please describe your issue above this line ---</string>
+    <string name="support_send_with_chooser">Send with…</string>
+    <string name="bento_label_service">Service</string>
+    <string name="bento_label_permissions">Permissions</string>
+    <string name="bento_label_configuration">Configuration</string>
+    <string name="bento_value_settings">Settings</string>
+    <string name="nav_history">History</string>
+    <string name="nav_record">Record</string>
+    <string name="nav_settings">Settings</string>
+    <!-- ============================== -->
+    <!-- Keyboard setup -->
+    <!-- ============================== -->
+    <string name="keyboard_setup_title">Use from your keyboard</string>
+    <string name="keyboard_setup_intro">Make your phone keyboard speak Yiddish. Pick your keyboard below for step-by-step instructions.</string>
+    <string name="keyboard_setup_tab_other">Other</string>
+    <string name="keyboard_setup_open_settings">Open system settings</string>
+
+    <string name="kb_gboard_step1_title">Open Gboard settings</string>
+    <string name="kb_gboard_step1_body">In any app, long-press the comma key on Gboard, then tap the gear icon.</string>
+    <string name="kb_gboard_step2_title">Find Voice typing</string>
+    <string name="kb_gboard_step2_body">Tap Voice typing inside Gboard settings.</string>
+    <string name="kb_gboard_step3_title">Pick recognizer</string>
+    <string name="kb_gboard_step3_body">Choose Yiddish VTT as the speech recognizer.</string>
+    <string name="kb_gboard_step4_title">Test it</string>
+    <string name="kb_gboard_step4_body">Open any text field, tap the mic on Gboard, and speak in Yiddish.</string>
+
+    <string name="kb_samsung_step1_title">Open Samsung Keyboard settings</string>
+    <string name="kb_samsung_step1_body">Settings → General management → Samsung Keyboard settings.</string>
+    <string name="kb_samsung_step2_title">Voice input</string>
+    <string name="kb_samsung_step2_body">Tap Voice input and choose Yiddish VTT.</string>
+    <string name="kb_samsung_step3_title">Test it</string>
+    <string name="kb_samsung_step3_body">Open any text field, tap the mic on the keyboard, and speak in Yiddish.</string>
+
+    <string name="kb_swiftkey_step1_title">Open SwiftKey settings</string>
+    <string name="kb_swiftkey_step1_body">Long-press the comma key, then tap the SwiftKey gear icon.</string>
+    <string name="kb_swiftkey_step2_title">Voice &amp; speech</string>
+    <string name="kb_swiftkey_step2_body">Find the speech-to-text option and pick Yiddish VTT.</string>
+    <string name="kb_swiftkey_step3_title">Test it</string>
+    <string name="kb_swiftkey_step3_body">Open any text field, tap the mic, and speak in Yiddish.</string>
+
+    <string name="kb_other_step1_title">Open keyboard settings</string>
+    <string name="kb_other_step1_body">Tap the button below to open Android\'s keyboard settings, then look for a Voice typing or Speech recognizer option in your keyboard.</string>
+    <string name="kb_other_step2_title">Pick Yiddish VTT</string>
+    <string name="kb_other_step2_body">Choose Yiddish VTT wherever your keyboard lets you select a speech recognizer.</string>
+
+    <string name="setting_copy_to_clipboard">Copy transcription to clipboard</string>
+    <string name="setting_copy_to_clipboard_desc">When on, every transcription is also copied so you can paste it elsewhere.</string>
+</resources>

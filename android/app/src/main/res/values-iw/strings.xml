@@ -1,0 +1,188 @@
+<resources>
+    <!-- ============================== -->
+    <!-- Brand / system -->
+    <!-- ============================== -->
+    <string name="accessibility_service_description">ZugIt זקוקה להרשאת נגישות למטרה אחת בלבד: להדביק את הטקסט המוכתב שלך בתוך שדה הטקסט שבו אתה כותב. היא מזהה איזה שדה נמצא בפוקוס ומכניסה את התמלול לשם. היא אינה קוראת את התוכן של אפליקציות אחרות, אינה אוספת נתוני מסך, ואינה שולחת שום מידע לשרתים שלנו דרך השירות הזה.</string>
+
+    <!-- Language names (shown in language picker). Each locale's strings.xml
+         should translate ALL THREE so the picker reads correctly in any locale. -->
+    <string name="language_english">English (אנגלית)</string>
+    <string name="language_yiddish">יידיש (אידיש)</string>
+    <string name="onboarding_notif_title">התראות</string>
+    <string name="onboarding_notif_desc">ZugIt פועלת כשירות ברקע בזמן ההקלטה. אנדרואיד דורשת התראה מתמשכת כדי שתמיד תדע מתי המיקרופון פעיל.</string>
+    <string name="action_grant_notifications">אפשר התראות</string>
+    <string name="reminder_perms_title">⚠️ ההגדרה לא הושלמה</string>
+    <string name="reminder_perms_body">ZugIt זקוקה לכמה הרשאות לפני שהיא תוכל לפעול. הקש למטה כדי לסיים את ההגדרה.</string>
+    <string name="reminder_perms_action">סיים הגדרה</string>
+    <string name="language_hebrew">עברית</string>
+    <string name="language_system_default">ברירת המחדל של המערכת</string>
+    <string name="settings_language">שפה</string>
+    <string name="dialog_choose_language">בחר שפה</string>
+
+    <!-- ============================== -->
+    <!-- Generic actions -->
+    <!-- ============================== -->
+    <string name="action_next">הבא</string>
+    <string name="action_skip">דלג</string>
+    <string name="action_finish">סיום</string>
+    <string name="action_cancel">ביטול</string>
+    <string name="action_start">התחל</string>
+    <string name="action_send">שלח</string>
+    <string name="action_discard">בטל</string>
+    <string name="action_keep_recording">המשך להקליט</string>
+    <string name="action_got_it">הבנתי</string>
+
+    <!-- ============================== -->
+    <!-- Main screen -->
+    <!-- ============================== -->
+    <string name="status_ready">מוכן</string>
+    <string name="status_starting">מתחיל…</string>
+    <string name="status_stopping">עוצר…</string>
+    <string name="status_listening">מקשיב…</string>
+    <string name="status_active">פעיל</string>
+    <string name="status_off">כבוי</string>
+    <string name="status_missing">חסר</string>
+    <string name="hero_subtitle_tap_start">הקש כדי להתחיל הכתבה קולית</string>
+    <string name="hero_subtitle_tap_stop">הקש כדי לעצור את השירות</string>
+    <string name="hero_subtitle_activating">מפעיל את שירות המיקרופון</string>
+    <string name="hero_subtitle_releasing">משחרר את המיקרופון</string>
+    <string name="label_service">שירות</string>
+    <string name="label_permissions">הרשאות</string>
+    <string name="label_settings">הגדרות</string>
+    <string name="section_recent_transcriptions">תמלולים אחרונים</string>
+    <string name="empty_transcriptions">עדיין אין תמלולים</string>
+    <string name="toast_grant_permissions">אנא אשר את כל ההרשאות בהגדרה</string>
+    <string name="toast_copied">הועתק!</string>
+    <string name="perm_all_ok">הכול תקין</string>
+    <string name="perm_partial">חלקי</string>
+    <string name="action_copy">העתק</string>
+
+    <!-- ============================== -->
+    <!-- Onboarding -->
+    <!-- ============================== -->
+    <string name="onboarding_language_title">בחר את השפה שלך</string>
+    <string name="onboarding_language_desc">אפשר לשנות זאת בהגדרות בכל עת.</string>
+
+    <string name="onboarding_welcome_title">ZugIt</string>
+    <string name="onboarding_welcome_desc">הכתבה קולית מקצועית ביידיש.\nדבר באופן טבעי ותן ל-AI להקליד בשבילך.</string>
+
+    <string name="onboarding_consent_title">פרטיות והסכמה</string>
+    <string name="onboarding_consent_desc">הקלטות הקול שלך נשלחות לשרת תמלול כדי להפוך אותן לטקסט.\n\nאנא סמן את התיבה למטה כדי להמשיך.</string>
+    <string name="onboarding_consent_checkbox">אני מסכים שההקלטות שלי יישלחו לשרת תמלול.</string>
+    <string name="onboarding_privacy_link">קרא את מדיניות הפרטיות שלנו</string>
+    <string name="toast_consent_needed">אנא סמן את תיבת ההסכמה כדי להמשיך</string>
+
+    <string name="onboarding_login_title">התחברות</string>
+    <string name="onboarding_login_desc">התחבר עם Google כדי להמשיך.</string>
+    <string name="action_sign_in_google">התחבר עם Google</string>
+    <string name="dialog_signin_title">נדרשת התחברות</string>
+    <string name="dialog_signin_message">התחבר עם חשבון Google שלך כדי להמשיך.</string>
+    <string name="toast_signin_unavailable">Google Sign-In אינו זמין. בדוק חיבור לאינטרנט ו-Play Services.</string>
+    <string name="toast_signin_no_email">ההתחברות נכשלה: לא הוחזר אימייל. נסה שוב.</string>
+    <string name="toast_signin_success">מחובר בתור %1$s</string>
+    <string name="toast_signin_didnt_complete">ההתחברות לא הושלמה. נסה שוב.</string>
+
+    <string name="onboarding_mic_title">גישה למיקרופון</string>
+    <string name="onboarding_mic_desc">אנו זקוקים להרשאת מיקרופון כדי לשמוע את קולך.</string>
+    <string name="action_grant_microphone">אשר מיקרופון</string>
+
+    <string name="onboarding_overlay_title">כפתור צף</string>
+    <string name="onboarding_overlay_desc">אפשר לכפתור ההכתבה להופיע מעל אפליקציות אחרות.</string>
+    <string name="action_allow_overlay">אשר הצגה מעל</string>
+
+    <string name="onboarding_a11y_title">שירות נגישות</string>
+    <string name="onboarding_a11y_desc">ZugIt משתמשת בשירות הנגישות של Android למטרה אחת בלבד: להדביק את הטקסט המוכתב לתוך שדה הטקסט שבו אתה כותב כרגע.\n\nמה היא עושה:\n• מזהה איזה שדה טקסט נמצא בפוקוס כדי להכניס לשם את התמלול\n• מדביקה את המילים המדוברות שלך לאותו שדה\n\nמה היא לא עושה:\n• אינה קוראת או אוספת תוכן מאפליקציות אחרות\n• אינה מצלמת את המסך שלך\n• אינה שולחת שום נתון מאפליקציות אחרות לשרתים שלנו\n\nהערה: אם ההגדרות \'מוגבלות\', הקש על האייקון למעלה כדי לפתוח את פרטי האפליקציה ← 3 נקודות (מימין למעלה) ← \'אפשר הגדרות מוגבלות\'.</string>
+    <string name="action_open_accessibility">פתח הגדרות נגישות</string>
+    <string name="action_open_accessibility_step1">1. פתח נגישות</string>
+    <string name="toast_a11y_find_app">מצא \'ZugIt\' ברשימה והפעל אותה</string>
+    <string name="toast_restricted_settings">הקש על 3-הנקודות מימין למעלה -&gt; אפשר הגדרות מוגבלות</string>
+    <string name="toast_a11y_grayed_tip">טיפ: הקש על האייקון אם הנגישות מעומעמת</string>
+
+    <string name="onboarding_position_title">הגדרת הכפתור</string>
+    <string name="onboarding_position_desc">הקש על שדה הקלט למטה כדי להציג את המקלדת. לאחר מכן גרור את כפתור המיקרופון והשתמש במחוון לשינוי הגודל.</string>
+    <string name="page_input_hint">הקלד כאן כדי להציג את המקלדת</string>
+
+    <!-- ============================== -->
+    <!-- Settings -->
+    <!-- ============================== -->
+    <string name="section_floating_button">כפתור צף</string>
+    <string name="action_reposition_resize">🔓 מיקום ושינוי גודל הכפתור</string>
+    <string name="settings_reposition_desc">משחרר את הכפתור כדי שתוכל לגרור אותו ולשנות את גודלו.</string>
+    <string name="section_help_support">עזרה ותמיכה</string>
+    <string name="action_how_to_use">📘 איך להשתמש</string>
+    <string name="action_send_feedback">💬 שלח משוב</string>
+    <string name="action_report_issue">🐞 דווח על תקלה</string>
+    <string name="action_support_project">☕ תמוך בפרויקט</string>
+    <string name="settings_support_message">אהבת את האפליקציה? תמוך בפרויקט.</string>
+    <string name="action_buy_coffee">תמיכה</string>
+    <string name="toast_button_unlocked">הכפתור שוחרר! הזז אותו לכל מקום. המקלדת תיפתח כדי לעזור לך למקם אותו.</string>
+    <string name="dialog_report_title">דווח על תקלה</string>
+    <string name="dialog_report_message">כדי לעזור לנו לתקן את הבעיה מהר יותר, נקליט לוגים אבחוניים.\n\n1. הקש על התחל למטה\n2. לך ושחזר את התקלה (צא ממסך זה)\n3. חזור להגדרות ← דווח על תקלה\n4. הקש על שלח כדי לשלוח לנו את הלוגים במייל</string>
+    <string name="dialog_send_report_title">שלח דיווח</string>
+    <string name="dialog_send_report_message">סיימת לשחזר את התקלה? נאסוף את הלוגים ונפתח את אפליקציית המייל שלך.</string>
+    <string name="toast_recording_logs">מקליט לוגים. לך ושחזר את התקלה, ואז חזור.</string>
+    <string name="toast_report_discarded">הדיווח בוטל.</string>
+    <string name="settings_version_format">ZugIt גרסה %1$s (%2$d)</string>
+
+    <!-- ============================== -->
+    <!-- Help -->
+    <!-- ============================== -->
+    <string name="title_help">איך להשתמש</string>
+    <string name="help_getting_started_title">תחילת עבודה</string>
+    <string name="help_getting_started_body">1. פתח כל אפליקציה עם שדה טקסט (WhatsApp, Gmail, Chrome וכו\').\n2. הקש על השדה כדי להעלות את המקלדת.\n3. כפתור המיקרופון הצף יופיע מעל המקלדת.\n4. הקש עליו פעם אחת כדי להתחיל להקליט.\n5. הקש שוב כדי לעצור — הדיבור שלך יוקלד לתוך השדה.</string>
+    <string name="help_moving_title">הזזת הכפתור</string>
+    <string name="help_moving_body">• לחיצה ארוכה על הכפתור משחררת אותו.\n• גרור אותו לכל מקום על המסך.\n• השתמש במחוון הגודל כדי לשנות את הגודל.\n• הקש על סיום כדי לנעול אותו במקומו.\n\nאו פתח הגדרות ← מיקום ושינוי גודל הכפתור.</string>
+    <string name="help_tips_title">טיפים</string>
+    <string name="help_tips_body">• דבר בבהירות בקצב רגיל.\n• קליפים קצרים (פחות מ-30 שניות) עובדים הכי טוב.\n• אם הטקסט לא מופיע, הוא הועתק ללוח — פשוט הדבק.\n• הכפתור מופיע רק כשהמקלדת פתוחה.</string>
+    <string name="help_trouble_title">פתרון בעיות</string>
+    <string name="help_trouble_body">• הכפתור לא מופיע? בדוק ששירות הנגישות מופעל.\n• הטקסט לא מוקלד? חלק מהאפליקציות חוסמות מילוי אוטומטי — הטקסט תמיד מועתק ללוח כגיבוי.\n• עדיין תקוע? השתמש ב\'דווח על תקלה\' מההגדרות ונעזור לך.</string>
+
+    <!-- ============================== -->
+    <!-- Floating mic / service -->
+    <!-- ============================== -->
+    <string name="mic_content_description">הכתבה</string>
+    <string name="mic_stop_description">עצור הקלטה</string>
+    <string name="floating_drag_hint">👆 גרור אותי לכל מקום</string>
+    <string name="reposition_slide_hint">החלק אותי</string>
+    <string name="floating_button_size">גודל הכפתור</string>
+    <string name="floating_finish_lock">סיום ונעילה ✓</string>
+    <string name="toast_drag_hint">גרור כדי להזיז. הקש סיום כשסיימת.</string>
+    <string name="toast_position_saved">המיקום נשמר!</string>
+    <string name="coach_tip_resize">↔️ השתמש במחוון לשינוי הגודל</string>
+    <string name="coach_tip_tap_done">✅ הקש סיום כשסיימת</string>
+    <string name="toast_couldnt_start">לא ניתן היה להתחיל להקליט. נסה שוב.</string>
+    <string name="toast_clipboard_copied">📋 הועתק ללוח: %1$s</string>
+    <string name="toast_no_connection">אין חיבור. בדוק את האינטרנט ונסה שוב.</string>
+    <string name="notification_channel_name">ZugIt</string>
+    <string name="notification_channel_description">סטטוס שירות הקלדה קולית</string>
+    <string name="notification_title_active">ZugIt — פעיל</string>
+    <string name="notification_title_ready">ZugIt — מוכן</string>
+    <string name="notification_recording">🔴 מקליט…</string>
+    <string name="notification_no_connection">❌ אין חיבור</string>
+
+    <!-- ============================== -->
+    <!-- API / network errors -->
+    <!-- ============================== -->
+    <string name="api_error_service_unavailable">השירות אינו זמין. נסה שוב.</string>
+    <string name="api_error_empty_recording">ההקלטה הייתה ריקה. נסה שוב.</string>
+    <string name="api_error_signin_required">נדרשת התחברות. פתח מחדש את האפליקציה.</string>
+    <string name="api_error_too_long">ההקלטה ארוכה מדי. נסה קליפ קצר יותר.</string>
+    <string name="api_error_service_busy">השירות עמוס. נסה שוב בעוד רגע.</string>
+    <string name="api_error_transcribe_generic">לא ניתן היה לתמלל. נסה שוב.</string>
+
+    <!-- ============================== -->
+    <!-- Support email -->
+    <!-- ============================== -->
+    <string name="support_subject_feedback">ZugIt — משוב</string>
+    <string name="support_subject_issue">ZugIt — דיווח על תקלה</string>
+    <string name="support_describe_feedback">--- אנא תאר את המשוב שלך מעל השורה הזו ---</string>
+    <string name="support_describe_issue">--- אנא תאר את התקלה שלך מעל השורה הזו ---</string>
+    <string name="support_send_with_chooser">שלח עם…</string>
+    <string name="bento_label_service">שירות</string>
+    <string name="bento_label_permissions">הרשאות</string>
+    <string name="bento_label_configuration">תצורה</string>
+    <string name="bento_value_settings">הגדרות</string>
+    <string name="nav_history">היסטוריה</string>
+    <string name="nav_record">הקלטה</string>
+    <string name="nav_settings">הגדרות</string>
+</resources>

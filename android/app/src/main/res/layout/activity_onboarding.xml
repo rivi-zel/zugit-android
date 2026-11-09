@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@color/heimish_surface">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="24dp"
+        android:gravity="center_vertical"
+        android:background="@color/heimish_surface">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSkip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_skip"
+            android:textAllCaps="false"
+            android:textColor="@color/heimish_ink_muted"
+            android:textAppearance="@style/TextAppearance.Heimish.LabelUi"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:minWidth="140dp"
+            android:text="@string/action_next"
+            android:textAllCaps="false"
+            android:textColor="@color/heimish_on_primary"
+            android:textAppearance="@style/TextAppearance.Heimish.LabelUi"
+            app:cornerRadius="14dp"
+            android:paddingStart="28dp"
+            android:paddingEnd="28dp"
+            app:backgroundTint="@color/heimish_primary" />
+    </LinearLayout>
+</LinearLayout>

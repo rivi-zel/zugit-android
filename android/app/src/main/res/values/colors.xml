@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="heimish_surface">#FCF9F8</color>
+    <color name="heimish_surface_container_lowest">#FFFFFF</color>
+    <color name="heimish_surface_container_low">#F6F3F2</color>
+    <color name="heimish_surface_container">#F0EDED</color>
+    <color name="heimish_surface_container_high">#EAE7E7</color>
+    <color name="heimish_surface_container_highest">#E4E2E1</color>
+    <color name="heimish_on_surface">#1B1C1C</color>
+    <color name="heimish_on_surface_variant">#43474E</color>
+    <color name="heimish_ink_muted">#73777F</color>
+    <color name="heimish_primary">#002446</color>
+    <color name="heimish_on_primary">#FFFFFF</color>
+    <color name="heimish_primary_container">#1A3A5F</color>
+    <color name="heimish_on_primary_container">#87A4CF</color>
+    <color name="heimish_primary_fixed">#D3E3FF</color>
+    <color name="heimish_secondary">#7B5800</color>
+    <color name="heimish_secondary_container">#FDC34D</color>
+    <color name="heimish_on_secondary_container">#715000</color>
+    <color name="heimish_secondary_fixed">#FFDEA6</color>
+    <color name="heimish_gold_accent">#B8860B</color>
+    <color name="heimish_tertiary">#16271B</color>
+    <color name="heimish_tertiary_container">#2B3D30</color>
+    <color name="heimish_tertiary_fixed">#D3E8D5</color>
+    <color name="heimish_error">#BA1A1A</color>
+    <color name="heimish_on_error">#FFFFFF</color>
+    <color name="heimish_error_container">#FFDAD6</color>
+    <color name="heimish_success">#3E7A4A</color>
+    <color name="heimish_outline">#73777F</color>
+    <color name="heimish_outline_variant">#C3C6CF</color>
+    <color name="heimish_hairline">#E8E0D0</color>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_reposition_island"
+    android:paddingStart="20dp"
+    android:paddingEnd="6dp"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp"
+    android:elevation="8dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="64dp"
+    android:layout_marginBottom="16dp"
+    android:minHeight="56dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reposition_slide_hint"
+        android:textColor="@color/heimish_ink_muted"
+        android:textAppearance="@style/TextAppearance.Heimish.LabelUi"
+        android:layout_marginEnd="16dp" />
+
+    <SeekBar
+        android:id="@+id/sizeSlider"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:max="150"
+        android:progress="50"
+        android:progressTint="@color/heimish_gold_accent"
+        android:thumbTint="@color/heimish_gold_accent"
+        android:layout_marginEnd="12dp" />
+
+    <ImageButton
+        android:id="@+id/btnPositionDone"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/btn_primary_circle"
+        android:src="@drawable/ic_check"
+        android:scaleType="centerInside"
+        android:tint="@color/heimish_on_secondary_container"
+        android:contentDescription="@string/floating_finish_lock" />
+</LinearLayout>

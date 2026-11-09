@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/heimish_surface">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/heimish_surface"
+        app:elevation="0dp">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/settingsAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="@string/label_settings"
+            app:titleTextColor="@color/heimish_primary"
+            app:titleTextAppearance="@style/TextAppearance.Heimish.HeadlineMd"
+            app:navigationIcon="@android:drawable/ic_menu_revert"
+            app:navigationIconTint="@color/heimish_primary" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="32dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etHiddenPositionHelper"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:alpha="0.01"
+                android:hint="helper"
+                android:importantForAutofill="no"
+                android:inputType="textShortMessage" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/bg_heimish_card">
+
+                <TextView
+                    android:id="@+id/tvUserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="User Name"
+                    android:textAppearance="@style/TextAppearance.Heimish.HeadlineMd" />
+
+                <TextView
+                    android:id="@+id/tvUserEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    tools:text="email@example.com"
+                    android:textAppearance="@style/TextAppearance.Heimish.BodyMd"
+                    android:textColor="@color/heimish_ink_muted" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="4dp"
+                android:text="@string/settings_section_account"
+                android:textAppearance="@style/TextAppearance.Heimish.LabelCaps"
+                android:textColor="@color/heimish_gold_accent" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/heimish_hairline" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLanguage"
+                style="@style/SettingsRowButton"
+                tools:text="Language: English" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/heimish_hairline" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="4dp"
+                android:text="@string/settings_section_floating_mic"
+                android:textAppearance="@style/TextAppearance.Heimish.LabelCaps"
+                android:textColor="@color/heimish_gold_accent" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/heimish_hairline" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnKeyboardSetup"
+                style="@style/SettingsRowButton"
+                android:text="@string/action_keyboard_setup" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/heimish_hairline" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnReposition"
+                style="@style/SettingsRowButton"
+                android:text="@string/action_reposition_resize" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/heimish_hairline" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:minHeight="64dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/setting_copy_to_clipboard"
+                        android:textAppearance="@style/TextAppearance.Heimish.BodyMd"
+                        android:textColor="@color/heimish_on_surface" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/setting_copy_to_clipboard_desc"
+                        android:textAppearance="@style/TextAppearance.Heimish.LabelCaps"
+                        android:textColor="@color/heimish_ink_muted"
+                        android:layout_marginTop="2dp" />
+                </LinearLayout>
+
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/swCopyToClipboard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/heimish_hairline" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="4dp"
+                android:text="@string/settings_section_about"
+                android:textAppearance="@style/TextAppearance.Heimish.LabelCaps"
+                android:textColor="@color/heimish_gold_accent" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/heimish_hairline" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnHelp"
+                style="@style/SettingsRowButton"
+                android:text="@string/action_how_to_use" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/heimish_hairline" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnFeedback"
+                style="@style/SettingsRowButton"
+                android:text="@string/action_send_feedback" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/heimish_hairline" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnReportIssue"
+                style="@style/SettingsRowButton"
+                android:text="@string/action_report_issue" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/heimish_hairline" />
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/bg_heimish_card">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/action_support_project"
+                    android:textAppearance="@style/TextAppearance.Heimish.HeadlineMd"
+                    android:textColor="@color/heimish_primary"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_support_message"
+                    android:textAppearance="@style/TextAppearance.Heimish.BodyMd"
+                    android:textColor="@color/heimish_ink_muted"
+                    android:lineSpacingMultiplier="1.3"
+                    android:layout_marginBottom="16dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnBuyMeCoffee"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="@string/action_buy_coffee"
+                    app:cornerRadius="14dp"
+                    app:backgroundTint="@color/heimish_gold_accent"
+                    android:textColor="@color/heimish_on_secondary_container"
+                    android:textAllCaps="false"
+                    android:textAppearance="@style/TextAppearance.Heimish.LabelUi" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvVersionFooter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="24dp"
+                android:paddingBottom="8dp"
+                android:textAppearance="@style/TextAppearance.Heimish.LabelCaps"
+                android:textColor="@color/heimish_ink_muted" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

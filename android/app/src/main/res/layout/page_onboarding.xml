@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@color/heimish_surface">
+
+    <FrameLayout
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/bg_onboarding_icon_halo">
+
+        <ImageView
+            android:id="@+id/ivPageIcon"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_mic"
+            app:tint="@color/heimish_primary" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvPageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Welcome"
+        android:textAppearance="@style/TextAppearance.Heimish.HeadlineLg"
+        android:textColor="@color/heimish_on_surface"
+        android:gravity="center"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/tvPageDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Description"
+        android:textAppearance="@style/TextAppearance.Heimish.BodyLg"
+        android:textColor="@color/heimish_ink_muted"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.3"
+        android:layout_marginBottom="32dp" />
+
+    <CheckBox
+        android:id="@+id/cbConsent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/onboarding_consent_checkbox"
+        android:textColor="@color/heimish_on_surface"
+        android:textAppearance="@style/TextAppearance.Heimish.BodyMd"
+        android:buttonTint="@color/heimish_primary"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvPrivacyLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onboarding_privacy_link"
+        android:textColor="@color/heimish_primary"
+        android:textAppearance="@style/TextAppearance.Heimish.LabelUi"
+        android:padding="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilPageInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:visibility="gone"
+        app:boxStrokeColor="@color/heimish_primary"
+        app:hintTextColor="@color/heimish_primary">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPageInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/page_input_hint"
+            android:textColor="@color/heimish_on_surface"
+            android:textColorHint="@color/heimish_ink_muted" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPageAction"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        tools:text="Grant Permission"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.Heimish.LabelUi"
+        app:cornerRadius="14dp"
+        app:backgroundTint="@color/heimish_primary"
+        android:textColor="@color/heimish_on_primary"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/llLanguageChoices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLangEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/language_english"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.Heimish.LabelUi"
+            app:cornerRadius="14dp"
+            app:backgroundTint="@color/heimish_surface_container_low"
+            android:textColor="@color/heimish_on_surface"
+            android:layout_marginBottom="10dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLangYiddish"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/language_yiddish"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.Heimish.LabelUi"
+            app:cornerRadius="14dp"
+            app:backgroundTint="@color/heimish_surface_container_low"
+            android:textColor="@color/heimish_on_surface"
+            android:layout_marginBottom="10dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLangHebrew"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/language_hebrew"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.Heimish.LabelUi"
+            app:cornerRadius="14dp"
+            app:backgroundTint="@color/heimish_surface_container_low"
+            android:textColor="@color/heimish_on_surface" />
+    </LinearLayout>
+</LinearLayout>

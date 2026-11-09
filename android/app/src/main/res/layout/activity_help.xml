@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/heimish_surface">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/heimish_surface"
+        app:elevation="0dp">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/helpAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="@string/title_help"
+            app:titleTextColor="@color/heimish_primary"
+            app:titleTextAppearance="@style/TextAppearance.Heimish.HeadlineMd"
+            app:navigationIcon="@android:drawable/ic_menu_revert"
+            app:navigationIconTint="@color/heimish_primary" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="32dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/help_getting_started_title"
+                android:textAppearance="@style/TextAppearance.Heimish.HeadlineMd"
+                android:textColor="@color/heimish_primary"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/help_getting_started_body"
+                android:textAppearance="@style/TextAppearance.Heimish.BodyMd"
+                android:textColor="@color/heimish_on_surface"
+                android:lineSpacingMultiplier="1.3"
+                android:layout_marginBottom="24dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="24dp"
+                android:background="@color/heimish_hairline" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/help_moving_title"
+                android:textAppearance="@style/TextAppearance.Heimish.HeadlineMd"
+                android:textColor="@color/heimish_primary"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/help_moving_body"
+                android:textAppearance="@style/TextAppearance.Heimish.BodyMd"
+                android:textColor="@color/heimish_on_surface"
+                android:lineSpacingMultiplier="1.3"
+                android:layout_marginBottom="24dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="24dp"
+                android:background="@color/heimish_hairline" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/help_tips_title"
+                android:textAppearance="@style/TextAppearance.Heimish.HeadlineMd"
+                android:textColor="@color/heimish_primary"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/help_tips_body"
+                android:textAppearance="@style/TextAppearance.Heimish.BodyMd"
+                android:textColor="@color/heimish_on_surface"
+                android:lineSpacingMultiplier="1.3"
+                android:layout_marginBottom="24dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="24dp"
+                android:background="@color/heimish_hairline" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/help_trouble_title"
+                android:textAppearance="@style/TextAppearance.Heimish.HeadlineMd"
+                android:textColor="@color/heimish_primary"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/help_trouble_body"
+                android:textAppearance="@style/TextAppearance.Heimish.BodyMd"
+                android:textColor="@color/heimish_on_surface"
+                android:lineSpacingMultiplier="1.3"
+                android:layout_marginBottom="24dp" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

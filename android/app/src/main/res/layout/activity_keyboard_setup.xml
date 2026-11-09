@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/heimish_surface">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/heimish_surface"
+        app:elevation="0dp">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/keyboardSetupAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="@string/keyboard_setup_title"
+            app:titleTextColor="@color/heimish_primary"
+            app:titleTextAppearance="@style/TextAppearance.Heimish.HeadlineMd"
+            app:navigationIcon="@android:drawable/ic_menu_revert"
+            app:navigationIconTint="@color/heimish_primary" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="32dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/keyboard_setup_intro"
+                android:textAppearance="@style/TextAppearance.Heimish.BodyLg"
+                android:textColor="@color/heimish_ink_muted"
+                android:lineSpacingMultiplier="1.3"
+                android:layout_marginBottom="20dp" />
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabsKeyboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/heimish_surface"
+                app:tabMode="scrollable"
+                app:tabGravity="start"
+                app:tabIndicatorColor="@color/heimish_gold_accent"
+                app:tabIndicatorHeight="2dp"
+                app:tabSelectedTextColor="@color/heimish_primary"
+                app:tabTextColor="@color/heimish_ink_muted"
+                app:tabTextAppearance="@style/TextAppearance.Heimish.LabelUi" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/heimish_hairline" />
+
+            <LinearLayout
+                android:id="@+id/llSteps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnOpenSystemSettings"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/keyboard_setup_open_settings"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.Heimish.LabelUi"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                app:cornerRadius="14dp"
+                app:strokeColor="@color/heimish_primary"
+                android:textColor="@color/heimish_primary" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

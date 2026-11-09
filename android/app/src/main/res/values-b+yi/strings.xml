@@ -1,0 +1,185 @@
+<resources>
+    <!-- ============================== -->
+    <!-- Brand / system -->
+    <!-- ============================== -->
+    <string name="accessibility_service_description">ZugIt דארף עקסעסעביליטי פאר איין ציל: אריינצולייגן דיין דיקטירטע טעקסט אין די טעקסט פיעלד ווי דו טייפסט יעצט. עס כאפט אויף וועלכע פיעלד דו נוצט יעצט און לייגט אריין די טראנסקריפשיען דארט. עס לייענט נישט קיין שום אינהאלט פון אנדערע עפפס, נעמט נישט קיין סקרין דאטא, און שיקט נישט קיין אינפארמאציע צו אונזערע סערווערס דורך די סערוויס.</string>
+
+    <!-- Language names -->
+    <string name="language_english">ענגליש</string>
+    <string name="language_yiddish">אידיש</string>
+    <string name="language_hebrew">לשון קודש (עברית)</string>
+    <string name="onboarding_notif_title">נאטיפיקאציעס</string>
+    <string name="onboarding_notif_desc">ZugIt ארבעט אלס א פארגראונד סערוויס ווען עס רעקארדירט. אנדרואיד פארלאנגט א קעסעדיגע נאטיפיקאציע אזוי ווייסטו אלע מאל ווען די מיק ארבעט.</string>
+    <string name="action_grant_notifications">ערלויב נאטיפיקאציעס</string>
+    <string name="reminder_perms_title">⚠️ סעטאפ נישט פארטיג</string>
+    <string name="reminder_perms_body">ZugIt דארף א פאר ערלויבענישן איידער עס קען ארבעטן. טאפ אונטן צו ענדיגן די סעטאפ.</string>
+    <string name="reminder_perms_action">ענדיג סעטאפ</string>
+    <string name="language_system_default">סיסטעם דיפאלט</string>
+    <string name="settings_language">שפראך</string>
+    <string name="dialog_choose_language">וועל אויס א שפראך</string>
+
+    <!-- ============================== -->
+    <!-- Generic actions -->
+    <!-- ============================== -->
+    <string name="action_next">קומענדיגע</string>
+    <string name="action_skip">סקיפ</string>
+    <string name="action_finish">פיניש</string>
+    <string name="action_cancel">קענסל</string>
+    <string name="action_start">סטארט</string>
+    <string name="action_send">שיקן</string>
+    <string name="action_discard">אוועקווארפן</string>
+    <string name="action_keep_recording">האלט אן רעקארדירן</string>
+    <string name="action_got_it">פארשטאנען</string>
+    <string name="action_copy">קאפי</string>
+
+    <!-- ============================== -->
+    <!-- Main screen -->
+    <!-- ============================== -->
+    <string name="status_ready">רעדי</string>
+    <string name="status_starting">הייבט אן…</string>
+    <string name="status_stopping">שטעלט זיך אפ…</string>
+    <string name="status_listening">הערט אויס…</string>
+    <string name="status_active">אקטיוו</string>
+    <string name="status_off">אויסגעלאשן</string>
+    <string name="status_missing">פעלט</string>
+    <string name="hero_subtitle_tap_start">קליק אנצוהייבן שטימע רעקארדירונג</string>
+    <string name="hero_subtitle_tap_stop">קליק אפצושטעלן די סערוויס</string>
+    <string name="hero_subtitle_activating">צינד אן די מייקראפאן סערוויס</string>
+    <string name="hero_subtitle_releasing">לאזט אפ די מייקראפאן</string>
+    <string name="label_service">סערוויס</string>
+    <string name="label_permissions">פערמישענס</string>
+    <string name="label_settings">סעטינגס</string>
+    <string name="section_recent_transcriptions">לעצטיגע טראנסקריפשיענס</string>
+    <string name="empty_transcriptions">נאכנישט קיין טראנסקריפשיענס</string>
+    <string name="perm_all_ok">אלעס איז גוט</string>
+    <string name="perm_partial">טיילווייז</string>
+    <string name="toast_grant_permissions">ביטע גיב אלע פערמישענס אין סעטינגס</string>
+    <string name="toast_copied">קאפירט!</string>
+
+    <!-- ============================== -->
+    <!-- Onboarding -->
+    <!-- ============================== -->
+    <string name="onboarding_language_title">קלייב דיין שפראך</string>
+    <string name="onboarding_language_desc">איר קענט עס ענדערן שפעטער אין סעטינגס.</string>
+
+    <string name="onboarding_welcome_desc">פראפעסיאנאלע אידישע שטימע-צו-טעקסט דיקטירן.\nרעד אריין געהעריג און לאז די AI טייפן פאר דיר.</string>
+
+    <string name="onboarding_consent_title">פריוואטקייט און הסכמה</string>
+    <string name="onboarding_consent_desc">דיינע שטימע רעקארדירונגען ווערן געשיקט צו א סערווער וואס מאכט זיי אויף טעקסט.\n\nביטע טשעק די באקס אונטן צו גיין ווייטער.</string>
+    <string name="onboarding_consent_checkbox">איך בין מסכים אז מיינע רעקארדירונגען זאלן געשיקט ווערן צו א סערווער.</string>
+    <string name="onboarding_privacy_link">ליין אונזער פריוואטקייט פאליסי</string>
+    <string name="toast_consent_needed">ביטע טשעק די הסכמה באקס צו גיין ווייטער</string>
+
+    <string name="onboarding_login_title">סיין אין</string>
+    <string name="onboarding_login_desc">סיין אין מיט גוגל צו גיין ווייטער.</string>
+    <string name="action_sign_in_google">סיין אין מיט גוגל</string>
+    <string name="dialog_signin_title">סיין אין פארלאנגט</string>
+    <string name="dialog_signin_message">סיין אין מיט דיין גוגל אקאונט צו גיין ווייטער.</string>
+    <string name="toast_signin_unavailable">גוגל סיין אין איז נישט עוועילעבל יעצט. טשעק דיין אינטערנעט און פלעי סערוויסעס.</string>
+    <string name="toast_signin_no_email">סיין אין דורכגעפאלן: קיין אימעיל נישט צוריקגעקומען. ביטע פראביר נאכאמאל.</string>
+    <string name="toast_signin_success">אריינגעסיינט אלס %1$s</string>
+    <string name="toast_signin_didnt_complete">סיין אין האט זיך נישט געענדיגט. ביטע פראביר נאכאמאל.</string>
+
+    <string name="onboarding_mic_title">מייקראפאן עקסעס</string>
+    <string name="onboarding_mic_desc">מיר דארפן מייקראפאן פערמישען צו הערן דיין שטימע.</string>
+    <string name="action_grant_microphone">גיב מייקראפאן רשות</string>
+
+    <string name="onboarding_overlay_title">פלאוטינג קנעפל</string>
+    <string name="onboarding_overlay_desc">לאז די קנעפל ארויפקומען העכער אנדערע עפס.</string>
+    <string name="action_allow_overlay">ערלויב אווערלעי</string>
+
+    <string name="onboarding_a11y_title">עקסעסעביליטי סערוויס</string>
+    <string name="onboarding_a11y_desc">ZugIt נוצט Android\'s עקסעסעביליטי סערוויס פאר איין ציל: אריינצולייגן דיין דיקטירטע טעקסט אין די טעקסט פעלד ווי דו טייפסט יעצט.\n\nוואס עס טוט:\n• כאפט אויף וועלכע טעקסט פעלד מען נוצט יעצט און לייגט אריין די טראנסקריפציע דארט\n• לייגט אריין דיינע ווערטער וואס דו רעדסט אריין אין יענע פעלד\n\nוואס עס טוט נישט:\n• עס לייענט נישט און קלייבט נישט קיין אינהאלט פון אנדערע עפס\n• כאפט נישט אפ קיין בילדער פון דיין סקרין\n• שיקט נישט קיין דאטא פון אנדערע עפס צו אונזערע סערווערס\n\nנאטיץ: אויב די סעטינגס זענען \'Restricted\', קליק אויפן אייקאן אויבן צו עפענען App Info → די 3 פינטלעך (אויבן רעכטס) → \'Allow restricted settings\'.</string>
+    <string name="action_open_accessibility">עפן עקסעסעביליטי סעטינגס</string>
+    <string name="action_open_accessibility_step1">1. עפן עקסעסעביליטי</string>
+    <string name="toast_a11y_find_app">זוך אויף \'ZugIt\' אין די ליסטע און צינד עס אן</string>
+    <string name="toast_restricted_settings">קליק אויף די 3 פינטלעך אויבן רעכטס -&gt; Allow restricted settings</string>
+    <string name="toast_a11y_grayed_tip">טיפ: קליק אויפן אייקאן אויב די עקסעסעביליטי איז גרא</string>
+
+    <string name="onboarding_position_title">סעטאפ קנעפל</string>
+    <string name="onboarding_position_desc">קליק אויף די פעלד אונטן צו זען די קיבאורד. נאכדעם שלעפ די מייק קנעפל און נוץ די סליידער צו טוישן די סייז.</string>
+    <string name="page_input_hint">טייפ דא אריין ארויפצוברענגען די קיבאורד</string>
+
+    <!-- ============================== -->
+    <!-- Settings -->
+    <!-- ============================== -->
+    <string name="section_floating_button">פלאוטינג קנעפל</string>
+    <string name="action_reposition_resize">🔓 רוק און טויש סייז פון קנעפל</string>
+    <string name="settings_reposition_desc">עס מאכט אויף די קנעפל כדי מען זאל עס קענען שלעפן און טוישן סייז.</string>
+    <string name="section_help_support">הילף און סופארט</string>
+    <string name="action_how_to_use">📘 וויאזוי צו נוצן</string>
+    <string name="action_send_feedback">💬 שיק פידבעק</string>
+    <string name="action_report_issue">🐞 רעפארט אן אישו</string>
+    <string name="action_support_project">☕ שטיצט די פראיעקט</string>
+    <string name="settings_support_message">געפעלט אייך די עפ? שטיצט דעם פראיעקט.</string>
+    <string name="action_buy_coffee">שטיצן</string>
+    <string name="toast_button_unlocked">קנעפל אפן! שלעפ עס ווי דו ווילסט. די קיבאורד וועט זיך עפענען דיר צו העלפן אריינזעצן אין פלאץ.</string>
+    <string name="dialog_report_title">רעפארט אן אישו</string>
+    <string name="dialog_report_message">אונז צו העלפן פאררעכטן דעם פראבלעם שנעלער, וועלן מיר רעקארדירן די לאגס.\n\n1. קליק אנהייבן אונטן\n2. גיי צוריק און מאך נאכאמאל דעם פראבלעם (גיי ארויס פון דעם סקרין)\n3. קום צוריק צו סעטינגס → רעפארט אן אישו\n4. קליק שיק צו אונז אימעילן די לאגס</string>
+    <string name="dialog_send_report_title">שיק רעפארט</string>
+    <string name="dialog_send_report_message">פערטיג מיטן איבערמאכן די אישו? מיר וועלן נעמען די לאגס און עפענען דיין אימעיל עפ.</string>
+    <string name="toast_recording_logs">מיר רעקארדירן לאגס. גיי מאך נאכאמאל דעם פראבלעם, און נאכדעם קום צוריק.</string>
+    <string name="toast_report_discarded">רעפארט אוועקגעווארפן.</string>
+    <string name="settings_version_format">ZugIt v%1$s (%2$d)</string>
+
+    <!-- ============================== -->
+    <!-- Help -->
+    <!-- ============================== -->
+    <string name="title_help">וויאזוי צו נוצן</string>
+    <string name="help_getting_started_title">וויאזוי אנהייבן</string>
+    <string name="help_getting_started_body">1. עפן סיי וועלכע עפ וואס האט א טעקסט פעלד (וואטסעפ, דזשימעיל, קראום, אא\"וו)\n2. קליק אויפן פעלד ארויפצוברענגען די קיבאורד.\n3. די פלאוטינג מייק קנעפל וועט ארויפקומען איבער די קיבאורד.\n4. קליק עס איין מאל אנצוהייבן רעקארדירן.\n5. קליק נאכאמאל צו סטאפן — דיין רעדן ווערט אריינגעטייפט אינעם פעלד.</string>
+    <string name="help_moving_title">ריקן דאס קנעפל</string>
+    <string name="help_moving_body">• קליק און האלט דאס קנעפל עס אויפצומאכן.\n• שלעפ עס סיי ווי אויפן סקרין.\n• נוץ די סייז סליידער צו טוישן די סייז.\n• קליק \'דאן\' (Done) עס צו לאקן אין פלאץ.\n\nאדער עפן סעטינגס → ריקן און טויש סייז פון קנעפל.</string>
+    <string name="help_tips_title">טיפס</string>
+    <string name="help_tips_body">• רעד קלאר מיט א נארמאלן ספיד.\n• קורצע קליפס (אונטער 30 סעקונדעס) ארבעט דאס בעסטע.\n• אויב די טעקסט קומט נישט ארויף, איז עס געקאפיט געווארן צום קליפבאורד — מאך פשוט \'פעיסט\'.\n• דאס קנעפל קומט נאר ארויף ווען די קיבאורד איז אפן.</string>
+    <string name="help_trouble_title">לעזן פראבלעמען</string>
+    <string name="help_trouble_body">• די קנעפל קומט נישט ארויף? טשעק אז די עקסעסעביליטי סערוויס איז אנגעצינדן.\n• די טעקסט טייפט זיך נישט אריין? טייל עפס בלאקירן אטאמאטישע אריינשרייבן — די טעקסט ווערט אלס געקאפיט צום קליפבאורד אלס א בעקאפ.\n• נאך אלץ סטאק? נוץ די \'רעפארט אן אישו\' קנעפל אין סעטינגס כדי מיר זאלן קענען העלפן.</string>
+
+    <!-- ============================== -->
+    <!-- Floating mic / service -->
+    <!-- ============================== -->
+    <string name="mic_content_description">דיקטיר</string>
+    <string name="mic_stop_description">שטאפ רעקארדירן</string>
+    <string name="floating_drag_hint">👆 שלעפ מיך סיי ווי</string>
+    <string name="reposition_slide_hint">שלעפ מיך</string>
+    <string name="floating_button_size">קנעפל סייז</string>
+    <string name="floating_finish_lock">ענדיג און לאק ✓</string>
+    <string name="toast_drag_hint">שלעפ צו ריקן. קליק דאן (Done) ווען דו ביסט פערטיג.</string>
+    <string name="toast_position_saved">פאזיציע געסעיווט!</string>
+    <string name="coach_tip_resize">↔️ נוץ די סליידער צו טוישן די סייז</string>
+    <string name="coach_tip_tap_done">✅ קליק דאן (Done) ווען דו ביסט פערטיג</string>
+    <string name="toast_couldnt_start">מ\'האט נישט געקענט אנהייבן רעקארדירן. ביטע פראביר נאכאמאל.</string>
+    <string name="toast_clipboard_copied">📋 געקאפיט צום קליפבאורד: %1$s</string>
+    <string name="toast_no_connection">קיין קאנעקשען. טשעק דיין אינטערנעט און פראביר נאכאמאל.</string>
+    <string name="notification_channel_description">שטימע טייפן סערוויס סטאטוס</string>
+    <string name="notification_title_active">ZugIt — אקטיוו</string>
+    <string name="notification_title_ready">ZugIt — רעדי</string>
+    <string name="notification_recording">🔴 רעקארדירט…</string>
+    <string name="notification_no_connection">❌ קיין קאנעקשען</string>
+
+    <!-- ============================== -->
+    <!-- API / network errors -->
+    <!-- ============================== -->
+    <string name="api_error_service_unavailable">סערוויס איז נישט עוועילעבל. ביטע פראביר נאכאמאל.</string>
+    <string name="api_error_empty_recording">רעקארדירונג איז געווען ליידיג. ביטע פראביר נאכאמאל.</string>
+    <string name="api_error_signin_required">מען דארף זיין אריינגעסיינט. ביטע עפן די עפ פונדאסניי.</string>
+    <string name="api_error_too_long">רעקארדירונג צו לאנג. ביטע פראביר א קורצערע קליפ.</string>
+    <string name="api_error_service_busy">די סערוויס איז ביזי. ביטע פראביר נאכאמאל אין א מאמענט.</string>
+    <string name="api_error_transcribe_generic">עס האט נישט געקענט טראנסקריבירן. ביטע פראביר נאכאמאל.</string>
+
+    <!-- ============================== -->
+    <!-- Support email -->
+    <!-- ============================== -->
+    <string name="support_subject_feedback">ZugIt — פידבעק</string>
+    <string name="support_subject_issue">ZugIt — אישו רעפארט</string>
+    <string name="support_describe_feedback">--- ביטע שרייב דיין פידבעק העכער פון די לייין ---</string>
+    <string name="support_describe_issue">--- ביטע שרייב דיין אישו העכער פון די ליין ---</string>
+    <string name="support_send_with_chooser">שיק מיט…</string>
+    <string name="bento_label_service">סערוויס</string>
+    <string name="bento_label_permissions">דערלויבענישן</string>
+    <string name="bento_label_configuration">קאנפיגוראציע</string>
+    <string name="bento_value_settings">איינשטעלונגען</string>
+    <string name="nav_history">היסטאריע</string>
+    <string name="nav_record">רעקארד</string>
+    <string name="nav_settings">איינשטעלונגען</string>
+</resources>
